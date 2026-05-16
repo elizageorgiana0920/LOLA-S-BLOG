@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="description"
+        content="Trimite-i Lolei o urare! Formular de contact și înscriere la newsletter pentru a primi noutăți despre explorările feline.">
+    <meta name="keywords" content="contact pisici, formular newsletter, trimite urare lola, adresa blog pisici.">
+    <meta name="author" content="Boros Eliza Georgiana">
+    <title>Lola's Blog – Contact</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="contact-bkg">
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="acasa.html">Lola's Galaxy Blog</a></div> <input type="checkbox" id="menu-toggle"
+                class="hidden-checkbox"> <label for="menu-toggle" class="toggle_btn icon"> <i
+                    class="fa-solid fa-bars"></i> </label>
+            <nav class="main-nav">
+                <ul class="links">
+                    <li><a href="acasa.html">Acasă</a></li>
+                    <li class="main-submenu"> <a href="povesti.html">Povești</a>
+                        <ul class="submenu">
+                            <li><a href="povesti.html#joaca">Joacă</a></li>
+                            <li><a href="povesti.html#relaxare">Relaxare</a></li>
+                            <li><a href="povesti.html#mancare">Mâncare Preferată</a></li>
+                            <li><a href="povesti.html#razvratire">Lola Războinica</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="poze.html">Poze</a></li>
+                    <li class="main-submenu"> <a href="contact.html">Contact</a>
+                        <ul class="submenu">
+                            <li><a href="#urare">Trimite-i o urare pisicii</a></li>
+                            <li><a href="#newsletter">Înscriere Newsletter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="signin.html" class="action_btn"> Fii Prietenul Lolei!</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="contact-layout-grid">
+        <section id="formular-contact">
+            <h1>💌 Trimite-i o Urare Pisicii</h1>
+            <form id="formular-urare"> <label for="nume-urare">Numele Tău:</label> <input type="text" id="nume-urare"
+                    required><br><br> <label for="email-urare">Email:</label> <input type="email" id="email-urare"
+                    required><br><br> <label for="mesaj-urare">Mesajul pentru Lola:</label> <textarea id="mesaj-urare"
+                    rows="4" cols="50" required></textarea><br><br> <button type="submit" class="action_btn">Trimite
+                    Urarea!</button> </form>
+            <h2 id="newsletter">Înscriere Newsletter</h2>
+            <form id="formular-newsletter"> <label for="news-email">Email (Newsletter):</label> <input type="email"
+                    id="news-email" required><br><br> <button type="submit" class="action_btn">Înscrie-te!</button>
+            </form>
+        </section>
+        <aside id="info-laterala">
+            <h2>Adresa Cosmică</h2>
+            <address> Aleea Canapelelor nr. 1<br> Sectorul Pervazului, 101010<br> Planeta Canapea, România </address>
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:lola@galaxyblog.ro">lola@galaxyblog.ro</a></p>
+            <p>Telefon: +40 773 864 617</p>
+            <h2 id="media">Locația</h2> <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.9549797243117!2d26.038219875700968!3d44.43408570157777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b201f609995a6f%3A0x8a7b024778b7d337!2sPolitehnica%20Business%20Tower!5e0!3m2!1sro!2sro!4v1763546258869!5m2!1sro!2sro"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lola's Galaxy Blog. Toate drepturile rezervate.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
