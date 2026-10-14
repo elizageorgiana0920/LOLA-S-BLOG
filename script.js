@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     successInfo.style.display = 'block';
                 }
                 setTimeout(function() { 
-                    window.location.href = 'acasa.html'; 
+                    window.location.href = 'index.html'; 
                 }, 2000);
             }
         });
